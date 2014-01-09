@@ -1,0 +1,20 @@
+# Logfile created on 2014-01-05 13:18:34 -0500 by logger.rb/41954
+I, [2014-01-05T13:18:34.417396 #6708]  INFO -- : 0:  bson (1.9.2) from C:/Ruby200/lib/ruby/gems/2.0.0/specifications/bson-1.9.2.gemspec
+I, [2014-01-05T13:18:34.419396 #6708]  INFO -- : 0:  builder (3.2.2) from C:/Ruby200/lib/ruby/gems/2.0.0/specifications/builder-3.2.2.gemspec
+I, [2014-01-05T13:18:39.469537 #6708]  INFO -- : 0:  ffi (1.9.0) from C:/Ruby200/lib/ruby/gems/2.0.0/specifications/ffi-1.9.0-x86-mingw32.gemspec
+I, [2014-01-05T13:18:39.471537 #6708]  INFO -- : 0:  childprocess (0.3.9) from C:/Ruby200/lib/ruby/gems/2.0.0/specifications/childprocess-0.3.9.gemspec
+I, [2014-01-05T13:18:39.472537 #6708]  INFO -- : 0:  diff-lcs (1.2.5) from C:/Ruby200/lib/ruby/gems/2.0.0/specifications/diff-lcs-1.2.5.gemspec
+I, [2014-01-05T13:18:39.473538 #6708]  INFO -- : 0:  mongo (1.9.2) from C:/Ruby200/lib/ruby/gems/2.0.0/specifications/mongo-1.9.2.gemspec
+I, [2014-01-05T13:18:39.474538 #6708]  INFO -- : 0:  multi_json (1.8.2) from C:/Ruby200/lib/ruby/gems/2.0.0/specifications/multi_json-1.8.2.gemspec
+I, [2014-01-05T13:18:40.420158 #6708]  INFO -- : 0:  parallel (0.8.2) from C:/Ruby200/lib/ruby/gems/2.0.0/specifications/parallel-0.8.2.gemspec
+I, [2014-01-05T13:18:41.561303 #6708]  INFO -- : 0:  parallel_tests (0.15.4) from C:/Ruby200/lib/ruby/gems/2.0.0/specifications/parallel_tests-0.15.4.gemspec
+I, [2014-01-05T13:18:41.562303 #6708]  INFO -- : 0:  rspec-core (2.14.7) from C:/Ruby200/lib/ruby/gems/2.0.0/specifications/rspec-core-2.14.7.gemspec
+I, [2014-01-05T13:18:41.563303 #6708]  INFO -- : 0:  rspec-expectations (2.14.4) from C:/Ruby200/lib/ruby/gems/2.0.0/specifications/rspec-expectations-2.14.4.gemspec
+I, [2014-01-05T13:18:41.564803 #6708]  INFO -- : 0:  rspec-mocks (2.14.4) from C:/Ruby200/lib/ruby/gems/2.0.0/specifications/rspec-mocks-2.14.4.gemspec
+I, [2014-01-05T13:18:41.565803 #6708]  INFO -- : 0:  rspec (2.14.1) from C:/Ruby200/lib/ruby/gems/2.0.0/specifications/rspec-2.14.1.gemspec
+I, [2014-01-05T13:18:41.567303 #6708]  INFO -- : 0:  rubyzip (1.1.0) from C:/Ruby200/lib/ruby/gems/2.0.0/specifications/rubyzip-1.1.0.gemspec
+I, [2014-01-05T13:18:41.568304 #6708]  INFO -- : 0:  websocket (1.0.7) from C:/Ruby200/lib/ruby/gems/2.0.0/specifications/websocket-1.0.7.gemspec
+I, [2014-01-05T13:18:41.569304 #6708]  INFO -- : 0:  selenium-webdriver (2.39.0) from C:/Ruby200/lib/ruby/gems/2.0.0/specifications/selenium-webdriver-2.39.0.gemspec
+I, [2014-01-05T13:18:42.065367 #6708]  INFO -- : 0:  syntax (1.0.0) from C:/Ruby200/lib/ruby/gems/2.0.0/specifications/syntax-1.0.0.gemspec
+I, [2014-01-05T13:18:42.067367 #6708]  INFO -- : 0:  yarjuf (1.0.5) from C:/Ruby200/lib/ruby/gems/2.0.0/specifications/yarjuf-1.0.5.gemspec
+I, [2014-01-05T13:18:42.068867 #6708]  INFO -- : 0:  bundler (1.5.1) from C:/Ruby200/lib/ruby/gems/2.0.0/specifications/bundler-1.5.1.gemspec

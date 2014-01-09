@@ -1,0 +1,24 @@
+setup the selenium grid on Hub and Node machines
+
+On the main machine:
+- navigate to the selenium grid folder
+- type => java -jar selenium-server-standalone-2.39.0.jar -role hub
+- navigate to http://localhost:4444/grid to verify its running
+
+On the remote node machine:
+
+- navigate to the selenium grid folder
+- type => java -jar selenium-server-standalone-2.39.0.jar -role webdriver -hub http://hubMachineIpAddress:4444/grid/register -port 5555
+          -browser browserName=firefox,platform=MAC, maxInstances=5, maxSession=5 -hubHost "hubMachineIpAddress" -host "NodeIpAddress"
+- Verify its running by navigating to http://localhost:4444/grid/console on the hub machine
+
+On the local node machine (same as the hub machine):
+
+- navigate to the selenium grid folder
+- type => java -jar selenium-server-standalone-2.39.0.jar -role webdriver -hub http://localhost:4444/grid/register -port 5544
+          -browser browserName=chrome,platform=WINDOWS, maxInstances=5, maxSession=5 -hubHost "localhost" -host "localhost"
+- Verify its running by navigating to http://localhost:4444/grid/console on the hub machine
+
+Setup the Path for the drivers
+- download the drivers and save them in the selenium folder
+- system setting => Environment Variables => insert C:/selenium/ in the path
