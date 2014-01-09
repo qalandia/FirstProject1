@@ -32,22 +32,36 @@ describe "User Authentication" do
     @browser.find_element(:id, 'loginButton').click
   end
 
-  it "upload an image" do
-    login("anwar", "@", "#{@url1}",".com", "passwordx")
-
-    @browser.page_source.should include("/api/image/#{@url1}")
-
+  def upload_image
     @browser.find_element(:xpath, "#{@home}").should be_true
     @browser.find_element(:xpath, "#{@config}").click
     sleep 2
     uploader = @browser.find_element(:id, "uploadImage")
     uploader.send_keys "C:\\Users\\salema\\Desktop\\Desert.jpg"
-    @browser.find_element(:xpath,"//input[@value='upload']").click
+    @browser.find_element(:xpath, "//input[@value='upload']").click
     sleep 2
     uploader = @browser.find_element(:id, "uploadImage")
     uploader.send_keys "C:\\Users\\salema\\Desktop\\Hydrangeas.jpg"
-    @browser.find_element(:xpath,"//input[@value='upload']").click
-    sleep 10
+    @browser.find_element(:xpath, "//input[@value='upload']").click
+    sleep 5
+  end
+
+  it "upload an image" do
+    login("anwar", "@", "#{@url1}",".com", "passwordx")
+    @browser.page_source.should include("/api/image/#{@url1}")
+    #upload the image from desktop
+    upload_image
+  end
+
+  it "uploaded image should match the small logo thumbnail" do
+    login("anwar", "@", "#{@url1}",".com", "passwordx")
+    #upload the image from desktop
+     upload_image
+     uploaded_image = @browser.page_source
+     uploaded_image.should include("/api/image/#{@url1}")
+     uploaded_image.should include("Extracted Colors")
+     uploaded_image.should include("Sample Palletes")
+
   end
 
 
