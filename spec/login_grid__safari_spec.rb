@@ -1,6 +1,6 @@
 require_relative 'spec_helper'
 
-describe "User Authentication" do
+describe "User Authentication - Safari" do
   include TestHelper # module in test_helper.rb file
   include MenuPage # module in menu_page.rb file
 

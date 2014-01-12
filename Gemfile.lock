@@ -13,7 +13,7 @@ GEM
       bson (~> 1.9.2)
     multi_json (1.8.2)
     parallel (0.8.2)
-    parallel_tests (0.15.4)
+    parallel_tests (0.16.6)
       parallel
     rspec (2.14.1)
       rspec-core (~> 2.14.0)
@@ -43,7 +43,7 @@ DEPENDENCIES
   ffi (= 1.9.0)
   mongo (= 1.9.2)
   parallel (= 0.8.2)
-  parallel_tests (= 0.15.4)
+  parallel_tests
   rspec (= 2.14.1)
   selenium-webdriver (= 2.39.0)
   syntax (= 1.0.0)

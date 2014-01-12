@@ -29,7 +29,7 @@ module TestHelper
     @browser
   end
 
-  def	page_text
+  def page_text
     @browser.find_element(:tag_name => "body").text
   end
 

@@ -1,12 +1,16 @@
 require_relative 'spec_helper'
 
-describe "User Authentication" do
+@bros = ["chrome", "firefox"]
+# loop through browsers and execute the test on each of them
+@bros.each do |bro|
+
+describe "User Authentication - #{bro}" do
   include TestHelper # module in test_helper.rb file
   include MenuPage # module in menu_page.rb file
 
   before(:all) do
     #@browser = Selenium::WebDriver.for(browser_type)
-    @browser = $browser = Selenium::WebDriver.for(:remote, :url => 'http://localhost:4444/wd/hub', :desired_capabilities => :internet_explorer)
+    @browser = $browser = Selenium::WebDriver.for(:remote, :url => 'http://localhost:4444/wd/hub', :desired_capabilities => :"#{bro}")
     @site_url = 'localhost'
     @base_url = "http://#{@site_url}:8080"
     @url1 = rand(1..999999)
@@ -55,4 +59,5 @@ describe "User Authentication" do
     @browser.title.should_not == 'App'
   end
 
+end
 end

@@ -1,12 +1,12 @@
 require_relative 'spec_helper'
 
-describe "User Authentication" do
+describe "User Authentication - IE" do
   include TestHelper # module in test_helper.rb file
   include MenuPage # module in menu_page.rb file
 
   before(:all) do
     #@browser = Selenium::WebDriver.for(browser_type)
-    @browser = $browser = Selenium::WebDriver.for(:remote, :url => 'http://localhost:4444/wd/hub', :desired_capabilities => :chrome)
+    @browser = $browser = Selenium::WebDriver.for(:remote, :url => 'http://localhost:4444/wd/hub', :desired_capabilities => :internet_explorer)
     @site_url = 'localhost'
     @base_url = "http://#{@site_url}:8080"
     @url1 = rand(1..999999)

@@ -22,3 +22,44 @@ On the local node machine (same as the hub machine):
 Setup the Path for the drivers
 - download the drivers and save them in the selenium folder
 - system setting => Environment Variables => insert C:/selenium/ in the path
+
+Created a json file to hold the configuration of the nodes machines.
+- path to the json file need to be specified in the connection string
+- Example of the node configuration: java -jar selenium-server-standalone-2.39.0.jar -role webdriver -hub http://localhost:4444/grid/register -nodeConfig "C:\Users\salema\Documents\GitHub\FirstProject1\selenium-grid.json"
+- selenium-grid.json file:
+------------------------------------------------------------------------------
+{ "capabilities": [
+    {
+        "browserName": "firefox",
+        "version": "latest",
+        "platform": "WINDOWS",
+        "maxInstances": 1
+    },
+    {
+        "browserName": "chrome",
+        "version": "latest",
+        "platform": "WINDOWS",
+        "maxInstances": 1
+    },
+    {
+        "browserName": "internet explorer",
+        "version": "8",
+        "platform": "WINDOWS",
+        "maxInstances": 1
+    }
+], "configuration": {
+    "nodeTimeout": 120,
+    "port": 5573,
+    "hubPort": 4444,
+    "hubHost": "localhost",
+    "nodePolling": 2000,
+    "registerCycle": 10000,
+    "register": true,
+    "cleanUpCycle": 2000,
+    "timeout": 30000,
+    "maxSession": 1
+ }
+
+}
+
+-----------------------------------------------------------------------------
