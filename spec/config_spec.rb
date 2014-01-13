@@ -1,6 +1,6 @@
 require_relative 'spec_helper'
 
-@bros = ["chrome", "firefox"]
+@bros = ["chrome"]
 # loop through browsers and execute the test on each of them
 @bros.each do |bro|
 
@@ -22,6 +22,8 @@ require_relative 'spec_helper'
 
     before(:each) do
       @browser.get(@base_url + '/')
+      @browser.navigate.refresh
+      sleep 2
     end
     after(:all) do
       @browser.quit
@@ -44,7 +46,7 @@ require_relative 'spec_helper'
       uploader = @browser.find_element(:id, "uploadImage")
       uploader.send_keys "C:\\Users\\salema\\Desktop\\Hydrangeas.jpg"
       @browser.find_element(:xpath, "//input[@value='upload']").click
-      sleep 5
+      @browser.navigate.refresh
     end
 
     it "upload an image" do

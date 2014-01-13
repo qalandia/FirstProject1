@@ -1,6 +1,6 @@
 require_relative 'spec_helper'
 
-@bros = ["chrome", "firefox"]
+@bros = ["chrome"]
 # loop through browsers and execute the test on each of them
 @bros.each do |bro|
 
