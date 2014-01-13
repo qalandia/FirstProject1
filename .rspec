@@ -1,4 +1,6 @@
---format documentation
+--format nested
+--format html
+-- out rspec ../reports/rspec_results.html
 --color
 --backtrace
 --profile
