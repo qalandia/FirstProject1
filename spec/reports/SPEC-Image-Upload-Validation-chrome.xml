@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Image Upload Validation - chrome" tests="2" time="12.4435" failures="0" errors="2" skipped="0">
+  <testcase name="Image Upload Validation - chrome upload an image" time="6.7315">
+    <failure type="NoMethodError" message="undefined method `true?' for #&lt;Selenium::WebDriver::Element:0x..fba024ac2 id=&quot;3&quot;&gt;">
+undefined method `true?' for #&lt;Selenium::WebDriver::Element:0x..fba024ac2 id="3"&gt; (NoMethodError)
+NoMethodError:
+undefined method `true?' for #&lt;Selenium::WebDriver::Element:0x..fba024ac2 id="3"&gt;
+     C:/Ruby200/lib/ruby/gems/2.0.0/gems/rspec-expectations-3.0.0.beta1/lib/rspec/matchers/built_in/be.rb:150:in `matches?'
+     C:/Ruby200/lib/ruby/gems/2.0.0/gems/rspec-expectations-3.0.0.beta1/lib/rspec/expectations/handler.rb:24:in `handle_matcher'
+     C:/Ruby200/lib/ruby/gems/2.0.0/gems/rspec-expectations-3.0.0.beta1/lib/rspec/expectations/syntax.rb:70:in `should'
+     ./spec/config_spec.rb:39:in `upload_image'
+     ./spec/config_spec.rb:56:in `block (3 levels) in &lt;top (required)&gt;'
+     C:/Ruby200/lib/ruby/gems/2.0.0/gems/rspec-core-3.0.0.beta1/lib/rspec/core/example.rb:114:in `instance_exec'
+     C:/Ruby200/lib/ruby/gems/2.0.0/gems/rspec-core-3.0.0.beta1/lib/rspec/core/example.rb:114:in `block in run'
+     C:/Ruby200/lib/ruby/gems/2.0.0/gems/rspec-core-3.0.0.beta1/lib/rspec/core/example.rb:241:in `with_around_each_hooks'
+     C:/Ruby200/lib/ruby/gems/2.0.0/gems/rspec-core-3.0.0.beta1/lib/rspec/core/example.rb:111:in `run'
+     C:/Ruby200/lib/ruby/gems/2.0.0/gems/rspec-core-3.0.0.beta1/lib/rspec/core/example_group.rb:416:in `block in run_examples'
+     C:/Ruby200/lib/ruby/gems/2.0.0/gems/rspec-core-3.0.0.beta1/lib/rspec/core/example_group.rb:412:in `map'
+     C:/Ruby200/lib/ruby/gems/2.0.0/gems/rspec-core-3.0.0.beta1/lib/rspec/core/example_group.rb:412:in `run_examples'
+     C:/Ruby200/lib/ruby/gems/2.0.0/gems/rspec-core-3.0.0.beta1/lib/rspec/core/example_group.rb:381:in `run'
+     C:/Ruby200/lib/ruby/gems/2.0.0/gems/rspec-core-3.0.0.beta1/lib/rspec/core/command_line.rb:28:in `block (2 levels) in run'
+     C:/Ruby200/lib/ruby/gems/2.0.0/gems/rspec-core-3.0.0.beta1/lib/rspec/core/command_line.rb:28:in `map'
+     C:/Ruby200/lib/ruby/gems/2.0.0/gems/rspec-core-3.0.0.beta1/lib/rspec/core/command_line.rb:28:in `block in run'
+     C:/Ruby200/lib/ruby/gems/2.0.0/gems/rspec-core-3.0.0.beta1/lib/rspec/core/reporter.rb:53:in `report'
+     C:/Ruby200/lib/ruby/gems/2.0.0/gems/rspec-core-3.0.0.beta1/lib/rspec/core/command_line.rb:25:in `run'
+     C:/Ruby200/lib/ruby/gems/2.0.0/gems/rspec-core-3.0.0.beta1/lib/rspec/core/runner.rb:90:in `run'
+     C:/Ruby200/lib/ruby/gems/2.0.0/gems/rspec-core-3.0.0.beta1/lib/rspec/core/runner.rb:17:in `block in autorun'    </failure>
+  </testcase>
+  <testcase name="Image Upload Validation - chrome uploaded image should match the small logo thumbnail" time="2.7575">
+    <failure type="NoMethodError" message="undefined method `true?' for #&lt;Selenium::WebDriver::Element:0x353f9db4 id=&quot;7&quot;&gt;">
+undefined method `true?' for #&lt;Selenium::WebDriver::Element:0x353f9db4 id="7"&gt; (NoMethodError)
+NoMethodError:
+undefined method `true?' for #&lt;Selenium::WebDriver::Element:0x353f9db4 id="7"&gt;
+     C:/Ruby200/lib/ruby/gems/2.0.0/gems/rspec-expectations-3.0.0.beta1/lib/rspec/matchers/built_in/be.rb:150:in `matches?'
+     C:/Ruby200/lib/ruby/gems/2.0.0/gems/rspec-expectations-3.0.0.beta1/lib/rspec/expectations/handler.rb:24:in `handle_matcher'
+     C:/Ruby200/lib/ruby/gems/2.0.0/gems/rspec-expectations-3.0.0.beta1/lib/rspec/expectations/syntax.rb:70:in `should'
+     ./spec/config_spec.rb:39:in `upload_image'
+     ./spec/config_spec.rb:62:in `block (3 levels) in &lt;top (required)&gt;'
+     C:/Ruby200/lib/ruby/gems/2.0.0/gems/rspec-core-3.0.0.beta1/lib/rspec/core/example.rb:114:in `instance_exec'
+     C:/Ruby200/lib/ruby/gems/2.0.0/gems/rspec-core-3.0.0.beta1/lib/rspec/core/example.rb:114:in `block in run'
+     C:/Ruby200/lib/ruby/gems/2.0.0/gems/rspec-core-3.0.0.beta1/lib/rspec/core/example.rb:241:in `with_around_each_hooks'
+     C:/Ruby200/lib/ruby/gems/2.0.0/gems/rspec-core-3.0.0.beta1/lib/rspec/core/example.rb:111:in `run'
+     C:/Ruby200/lib/ruby/gems/2.0.0/gems/rspec-core-3.0.0.beta1/lib/rspec/core/example_group.rb:416:in `block in run_examples'
+     C:/Ruby200/lib/ruby/gems/2.0.0/gems/rspec-core-3.0.0.beta1/lib/rspec/core/example_group.rb:412:in `map'
+     C:/Ruby200/lib/ruby/gems/2.0.0/gems/rspec-core-3.0.0.beta1/lib/rspec/core/example_group.rb:412:in `run_examples'
+     C:/Ruby200/lib/ruby/gems/2.0.0/gems/rspec-core-3.0.0.beta1/lib/rspec/core/example_group.rb:381:in `run'
+     C:/Ruby200/lib/ruby/gems/2.0.0/gems/rspec-core-3.0.0.beta1/lib/rspec/core/command_line.rb:28:in `block (2 levels) in run'
+     C:/Ruby200/lib/ruby/gems/2.0.0/gems/rspec-core-3.0.0.beta1/lib/rspec/core/command_line.rb:28:in `map'
+     C:/Ruby200/lib/ruby/gems/2.0.0/gems/rspec-core-3.0.0.beta1/lib/rspec/core/command_line.rb:28:in `block in run'
+     C:/Ruby200/lib/ruby/gems/2.0.0/gems/rspec-core-3.0.0.beta1/lib/rspec/core/reporter.rb:53:in `report'
+     C:/Ruby200/lib/ruby/gems/2.0.0/gems/rspec-core-3.0.0.beta1/lib/rspec/core/command_line.rb:25:in `run'
+     C:/Ruby200/lib/ruby/gems/2.0.0/gems/rspec-core-3.0.0.beta1/lib/rspec/core/runner.rb:90:in `run'
+     C:/Ruby200/lib/ruby/gems/2.0.0/gems/rspec-core-3.0.0.beta1/lib/rspec/core/runner.rb:17:in `block in autorun'    </failure>
+  </testcase>
+  <system-out>
+938171
+  </system-out>
+  <system-err>
+  </system-err>
+</testsuite>

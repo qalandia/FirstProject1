@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Navigation - firefox" tests="5" time="28.709" failures="1" errors="4" skipped="0">
+  <testcase name="Navigation - firefox Left Menu - Home Page - menu items" time="1.734">
+    <failure type="NoMethodError" message="undefined method `true?' for #&lt;Selenium::WebDriver::Element:0x6445012 id=&quot;3&quot;&gt;">
+undefined method `true?' for #&lt;Selenium::WebDriver::Element:0x6445012 id="3"&gt; (NoMethodError)
+NoMethodError:
+undefined method `true?' for #&lt;Selenium::WebDriver::Element:0x6445012 id="3"&gt;
+     C:/Ruby200/lib/ruby/gems/2.0.0/gems/rspec-expectations-3.0.0.beta1/lib/rspec/matchers/built_in/be.rb:150:in `matches?'
+     C:/Ruby200/lib/ruby/gems/2.0.0/gems/rspec-expectations-3.0.0.beta1/lib/rspec/expectations/handler.rb:24:in `handle_matcher'
+     C:/Ruby200/lib/ruby/gems/2.0.0/gems/rspec-expectations-3.0.0.beta1/lib/rspec/expectations/syntax.rb:70:in `should'
+     ./spec/navigation_spec.rb:43:in `block (3 levels) in &lt;top (required)&gt;'
+     C:/Ruby200/lib/ruby/gems/2.0.0/gems/rspec-core-3.0.0.beta1/lib/rspec/core/example.rb:114:in `instance_exec'
+     C:/Ruby200/lib/ruby/gems/2.0.0/gems/rspec-core-3.0.0.beta1/lib/rspec/core/example.rb:114:in `block in run'
+     C:/Ruby200/lib/ruby/gems/2.0.0/gems/rspec-core-3.0.0.beta1/lib/rspec/core/example.rb:241:in `with_around_each_hooks'
+     C:/Ruby200/lib/ruby/gems/2.0.0/gems/rspec-core-3.0.0.beta1/lib/rspec/core/example.rb:111:in `run'
+     C:/Ruby200/lib/ruby/gems/2.0.0/gems/rspec-core-3.0.0.beta1/lib/rspec/core/example_group.rb:416:in `block in run_examples'
+     C:/Ruby200/lib/ruby/gems/2.0.0/gems/rspec-core-3.0.0.beta1/lib/rspec/core/example_group.rb:412:in `map'
+     C:/Ruby200/lib/ruby/gems/2.0.0/gems/rspec-core-3.0.0.beta1/lib/rspec/core/example_group.rb:412:in `run_examples'
+     C:/Ruby200/lib/ruby/gems/2.0.0/gems/rspec-core-3.0.0.beta1/lib/rspec/core/example_group.rb:381:in `run'
+     C:/Ruby200/lib/ruby/gems/2.0.0/gems/rspec-core-3.0.0.beta1/lib/rspec/core/command_line.rb:28:in `block (2 levels) in run'
+     C:/Ruby200/lib/ruby/gems/2.0.0/gems/rspec-core-3.0.0.beta1/lib/rspec/core/command_line.rb:28:in `map'
+     C:/Ruby200/lib/ruby/gems/2.0.0/gems/rspec-core-3.0.0.beta1/lib/rspec/core/command_line.rb:28:in `block in run'
+     C:/Ruby200/lib/ruby/gems/2.0.0/gems/rspec-core-3.0.0.beta1/lib/rspec/core/reporter.rb:53:in `report'
+     C:/Ruby200/lib/ruby/gems/2.0.0/gems/rspec-core-3.0.0.beta1/lib/rspec/core/command_line.rb:25:in `run'
+     C:/Ruby200/lib/ruby/gems/2.0.0/gems/rspec-core-3.0.0.beta1/lib/rspec/core/runner.rb:90:in `run'
+     C:/Ruby200/lib/ruby/gems/2.0.0/gems/rspec-core-3.0.0.beta1/lib/rspec/core/runner.rb:17:in `block in autorun'    </failure>
+  </testcase>
+  <testcase name="Navigation - firefox Left Menu - Demo1 Page - menu items" time="1.062">
+    <failure type="NoMethodError" message="undefined method `true?' for #&lt;Selenium::WebDriver::Element:0x..fea5b9604 id=&quot;8&quot;&gt;">
+undefined method `true?' for #&lt;Selenium::WebDriver::Element:0x..fea5b9604 id="8"&gt; (NoMethodError)
+NoMethodError:
+undefined method `true?' for #&lt;Selenium::WebDriver::Element:0x..fea5b9604 id="8"&gt;
+     C:/Ruby200/lib/ruby/gems/2.0.0/gems/rspec-expectations-3.0.0.beta1/lib/rspec/matchers/built_in/be.rb:150:in `matches?'
+     C:/Ruby200/lib/ruby/gems/2.0.0/gems/rspec-expectations-3.0.0.beta1/lib/rspec/expectations/handler.rb:24:in `handle_matcher'
+     C:/Ruby200/lib/ruby/gems/2.0.0/gems/rspec-expectations-3.0.0.beta1/lib/rspec/expectations/syntax.rb:70:in `should'
+     ./spec/navigation_spec.rb:56:in `block (3 levels) in &lt;top (required)&gt;'
+     C:/Ruby200/lib/ruby/gems/2.0.0/gems/rspec-core-3.0.0.beta1/lib/rspec/core/example.rb:114:in `instance_exec'
+     C:/Ruby200/lib/ruby/gems/2.0.0/gems/rspec-core-3.0.0.beta1/lib/rspec/core/example.rb:114:in `block in run'
+     C:/Ruby200/lib/ruby/gems/2.0.0/gems/rspec-core-3.0.0.beta1/lib/rspec/core/example.rb:241:in `with_around_each_hooks'
+     C:/Ruby200/lib/ruby/gems/2.0.0/gems/rspec-core-3.0.0.beta1/lib/rspec/core/example.rb:111:in `run'
+     C:/Ruby200/lib/ruby/gems/2.0.0/gems/rspec-core-3.0.0.beta1/lib/rspec/core/example_group.rb:416:in `block in run_examples'
+     C:/Ruby200/lib/ruby/gems/2.0.0/gems/rspec-core-3.0.0.beta1/lib/rspec/core/example_group.rb:412:in `map'
+     C:/Ruby200/lib/ruby/gems/2.0.0/gems/rspec-core-3.0.0.beta1/lib/rspec/core/example_group.rb:412:in `run_examples'
+     C:/Ruby200/lib/ruby/gems/2.0.0/gems/rspec-core-3.0.0.beta1/lib/rspec/core/example_group.rb:381:in `run'
+     C:/Ruby200/lib/ruby/gems/2.0.0/gems/rspec-core-3.0.0.beta1/lib/rspec/core/command_line.rb:28:in `block (2 levels) in run'
+     C:/Ruby200/lib/ruby/gems/2.0.0/gems/rspec-core-3.0.0.beta1/lib/rspec/core/command_line.rb:28:in `map'
+     C:/Ruby200/lib/ruby/gems/2.0.0/gems/rspec-core-3.0.0.beta1/lib/rspec/core/command_line.rb:28:in `block in run'
+     C:/Ruby200/lib/ruby/gems/2.0.0/gems/rspec-core-3.0.0.beta1/lib/rspec/core/reporter.rb:53:in `report'
+     C:/Ruby200/lib/ruby/gems/2.0.0/gems/rspec-core-3.0.0.beta1/lib/rspec/core/command_line.rb:25:in `run'
+     C:/Ruby200/lib/ruby/gems/2.0.0/gems/rspec-core-3.0.0.beta1/lib/rspec/core/runner.rb:90:in `run'
+     C:/Ruby200/lib/ruby/gems/2.0.0/gems/rspec-core-3.0.0.beta1/lib/rspec/core/runner.rb:17:in `block in autorun'    </failure>
+  </testcase>
+  <testcase name="Navigation - firefox Left Menu - Demo2 Page - menu items" time="0.551">
+    <failure type="RSpec::Expectations::ExpectationNotMetError" message="expected &quot;&lt;html xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot;&gt;&lt;head&gt;\n\t&lt;script src=\&quot;/javascripts/lib/jquery.js\&quot; type=\&quot;text/javascript\&quot;&gt;&lt;/script&gt;\n\t&lt;script src=\&quot;/javascripts/lib/jquery.ui.widget.js\&quot; type=\&quot;text/javascript\&quot;&gt;&lt;/script&gt;\n\t&lt;script src=\&quot;/javascripts/lib/bootstrap.min.js\&quot; type=\&quot;text/javascript\&quot;&gt;&lt;/script&gt;\n    &lt;link href=\&quot;/api/css/default\&quot; type=\&quot;text/css\&quot; rel=\&quot;stylesheet\&quot; /&gt;\n    &lt;link href=\&quot;/stylesheets/login.css\&quot; type=\&quot;text/css\&quot; rel=\&quot;stylesheet\&quot; /&gt;\n&lt;/head&gt;\n&lt;body class=\&quot;default\&quot;&gt;\n    &lt;div class=\&quot;container\&quot;&gt;\n        &lt;form class=\&quot;form-signin\&quot;&gt;\n            &lt;img src=\&quot;/images/adp_default.jpg\&quot; class=\&quot;header-image\&quot; /&gt;\n            &lt;h2 class=\&quot;form-signin-heading\&quot;&gt;Please sign in&lt;/h2&gt;\n            &lt;input type=\&quot;text\&quot; autofocus=\&quot;\&quot; required=\&quot;\&quot; placeholder=\&quot;Email address\&quot; class=\&quot;form-control\&quot; name=\&quot;email\&quot; id=\&quot;email\&quot; /&gt;\n            &lt;input type=\&quot;password\&quot; required=\&quot;\&quot; placeholder=\&quot;Password\&quot; class=\&quot;form-control\&quot; /&gt;\n            &lt;label class=\&quot;checkbox\&quot;&gt;\n            &lt;input type=\&quot;checkbox\&quot; value=\&quot;remember-me\&quot; /&gt; Remember me\n            &lt;/label&gt;\n            &lt;input type=\&quot;button\&quot; name=\&quot;loginButton\&quot; id=\&quot;loginButton\&quot; value=\&quot;Sign In\&quot; class=\&quot;btn btn-lg btn-primary btn-block\&quot; /&gt;\n        &lt;/form&gt;\n    &lt;/div&gt;\n    &lt;script src=\&quot;/javascripts/login.js\&quot; type=\&quot;text/javascript\&quot;&gt;&lt;/script&gt;\n\n\n&lt;/body&gt;&lt;/html&gt;&quot; to include &quot;/api/image/713134&quot;...">
+expected "&lt;html xmlns=\"http://www.w3.org/1999/xhtml\"&gt;&lt;head&gt;\n\t&lt;script src=\"/javascripts/lib/jquery.js\" type=\"text/javascript\"&gt;&lt;/script&gt;\n\t&lt;script src=\"/javascripts/lib/jquery.ui.widget.js\" type=\"text/javascript\"&gt;&lt;/script&gt;\n\t&lt;script src=\"/javascripts/lib/bootstrap.min.js\" type=\"text/javascript\"&gt;&lt;/script&gt;\n    &lt;link href=\"/api/css/default\" type=\"text/css\" rel=\"stylesheet\" /&gt;\n    &lt;link href=\"/stylesheets/login.css\" type=\"text/css\" rel=\"stylesheet\" /&gt;\n&lt;/head&gt;\n&lt;body class=\"default\"&gt;\n    &lt;div class=\"container\"&gt;\n        &lt;form class=\"form-signin\"&gt;\n            &lt;img src=\"/images/adp_default.jpg\" class=\"header-image\" /&gt;\n            &lt;h2 class=\"form-signin-heading\"&gt;Please sign in&lt;/h2&gt;\n            &lt;input type=\"text\" autofocus=\"\" required=\"\" placeholder=\"Email address\" class=\"form-control\" name=\"email\" id=\"email\" /&gt;\n            &lt;input type=\"password\" required=\"\" placeholder=\"Password\" class=\"form-control\" /&gt;\n            &lt;label class=\"checkbox\"&gt;\n            &lt;input type=\"checkbox\" value=\"remember-me\" /&gt; Remember me\n            &lt;/label&gt;\n            &lt;input type=\"button\" name=\"loginButton\" id=\"loginButton\" value=\"Sign In\" class=\"btn btn-lg btn-primary btn-block\" /&gt;\n        &lt;/form&gt;\n    &lt;/div&gt;\n    &lt;script src=\"/javascripts/login.js\" type=\"text/javascript\"&gt;&lt;/script&gt;\n\n\n&lt;/body&gt;&lt;/html&gt;" to include "/api/image/713134"
+Diff:
+�[34m@@ -1,2 +1,25 @@
+�[0m�[31m-/api/image/713134
+�[0m�[32m+&lt;html xmlns="http://www.w3.org/1999/xhtml"&gt;&lt;head&gt;
+�[0m�[32m+	&lt;script src="/javascripts/lib/jquery.js" type="text/javascript"&gt;&lt;/script&gt;
+�[0m�[32m+	&lt;script src="/javascripts/lib/jquery.ui.widget.js" type="text/javascript"&gt;&lt;/script&gt;
+�[0m�[32m+	&lt;script src="/javascripts/lib/bootstrap.min.js" type="text/javascript"&gt;&lt;/script&gt;
+�[0m�[32m+    &lt;link href="/api/css/default" type="text/css" rel="stylesheet" /&gt;
+�[0m�[32m+    &lt;link href="/stylesheets/login.css" type="text/css" rel="stylesheet" /&gt;
+�[0m�[32m+&lt;/head&gt;
+�[0m�[32m+&lt;body class="default"&gt;
+�[0m�[32m+    &lt;div class="container"&gt;
+�[0m�[32m+        &lt;form class="form-signin"&gt;
+�[0m�[32m+            &lt;img src="/images/adp_default.jpg" class="header-image" /&gt;
+�[0m�[32m+            &lt;h2 class="form-signin-heading"&gt;Please sign in&lt;/h2&gt;
+�[0m�[32m+            &lt;input type="text" autofocus="" required="" placeholder="Email address" class="form-control" name="email" id="email" /&gt;
+�[0m�[32m+            &lt;input type="password" required="" placeholder="Password" class="form-control" /&gt;
+�[0m�[32m+            &lt;label class="checkbox"&gt;
+�[0m�[32m+            &lt;input type="checkbox" value="remember-me" /&gt; Remember me
+�[0m�[32m+            &lt;/label&gt;
+�[0m�[32m+            &lt;input type="button" name="loginButton" id="loginButton" value="Sign In" class="btn btn-lg btn-primary btn-block" /&gt;
+�[0m�[32m+        &lt;/form&gt;
+�[0m�[32m+    &lt;/div&gt;
+�[0m�[32m+    &lt;script src="/javascripts/login.js" type="text/javascript"&gt;&lt;/script&gt;
+�[0m�[32m+
+�[0m�[32m+
+�[0m�[32m+&lt;/body&gt;&lt;/html&gt;
+�[0m (RSpec::Expectations::ExpectationNotMetError)
+expected "&lt;html xmlns=\"http://www.w3.org/1999/xhtml\"&gt;&lt;head&gt;\n\t&lt;script src=\"/javascripts/lib/jquery.js\" type=\"text/javascript\"&gt;&lt;/script&gt;\n\t&lt;script src=\"/javascripts/lib/jquery.ui.widget.js\" type=\"text/javascript\"&gt;&lt;/script&gt;\n\t&lt;script src=\"/javascripts/lib/bootstrap.min.js\" type=\"text/javascript\"&gt;&lt;/script&gt;\n    &lt;link href=\"/api/css/default\" type=\"text/css\" rel=\"stylesheet\" /&gt;\n    &lt;link href=\"/stylesheets/login.css\" type=\"text/css\" rel=\"stylesheet\" /&gt;\n&lt;/head&gt;\n&lt;body class=\"default\"&gt;\n    &lt;div class=\"container\"&gt;\n        &lt;form class=\"form-signin\"&gt;\n            &lt;img src=\"/images/adp_default.jpg\" class=\"header-image\" /&gt;\n            &lt;h2 class=\"form-signin-heading\"&gt;Please sign in&lt;/h2&gt;\n            &lt;input type=\"text\" autofocus=\"\" required=\"\" placeholder=\"Email address\" class=\"form-control\" name=\"email\" id=\"email\" /&gt;\n            &lt;input type=\"password\" required=\"\" placeholder=\"Password\" class=\"form-control\" /&gt;\n            &lt;label class=\"checkbox\"&gt;\n            &lt;input type=\"checkbox\" value=\"remember-me\" /&gt; Remember me\n            &lt;/label&gt;\n            &lt;input type=\"button\" name=\"loginButton\" id=\"loginButton\" value=\"Sign In\" class=\"btn btn-lg btn-primary btn-block\" /&gt;\n        &lt;/form&gt;\n    &lt;/div&gt;\n    &lt;script src=\"/javascripts/login.js\" type=\"text/javascript\"&gt;&lt;/script&gt;\n\n\n&lt;/body&gt;&lt;/html&gt;" to include "/api/image/713134"
+Diff:
+�[34m@@ -1,2 +1,25 @@
+�[0m�[31m-/api/image/713134
+�[0m�[32m+&lt;html xmlns="http://www.w3.org/1999/xhtml"&gt;&lt;head&gt;
+�[0m�[32m+	&lt;script src="/javascripts/lib/jquery.js" type="text/javascript"&gt;&lt;/script&gt;
+�[0m�[32m+	&lt;script src="/javascripts/lib/jquery.ui.widget.js" type="text/javascript"&gt;&lt;/script&gt;
+�[0m�[32m+	&lt;script src="/javascripts/lib/bootstrap.min.js" type="text/javascript"&gt;&lt;/script&gt;
+�[0m�[32m+    &lt;link href="/api/css/default" type="text/css" rel="stylesheet" /&gt;
+�[0m�[32m+    &lt;link href="/stylesheets/login.css" type="text/css" rel="stylesheet" /&gt;
+�[0m�[32m+&lt;/head&gt;
+�[0m�[32m+&lt;body class="default"&gt;
+�[0m�[32m+    &lt;div class="container"&gt;
+�[0m�[32m+        &lt;form class="form-signin"&gt;
+�[0m�[32m+            &lt;img src="/images/adp_default.jpg" class="header-image" /&gt;
+�[0m�[32m+            &lt;h2 class="form-signin-heading"&gt;Please sign in&lt;/h2&gt;
+�[0m�[32m+            &lt;input type="text" autofocus="" required="" placeholder="Email address" class="form-control" name="email" id="email" /&gt;
+�[0m�[32m+            &lt;input type="password" required="" placeholder="Password" class="form-control" /&gt;
+�[0m�[32m+            &lt;label class="checkbox"&gt;
+�[0m�[32m+            &lt;input type="checkbox" value="remember-me" /&gt; Remember me
+�[0m�[32m+            &lt;/label&gt;
+�[0m�[32m+            &lt;input type="button" name="loginButton" id="loginButton" value="Sign In" class="btn btn-lg btn-primary btn-block" /&gt;
+�[0m�[32m+        &lt;/form&gt;
+�[0m�[32m+    &lt;/div&gt;
+�[0m�[32m+    &lt;script src="/javascripts/login.js" type="text/javascript"&gt;&lt;/script&gt;
+�[0m�[32m+
+�[0m�[32m+
+�[0m�[32m+&lt;/body&gt;&lt;/html&gt;
+�[0m
+     C:/Ruby200/lib/ruby/gems/2.0.0/gems/rspec-expectations-3.0.0.beta1/lib/rspec/expectations/fail_with.rb:32:in `fail_with'
+     C:/Ruby200/lib/ruby/gems/2.0.0/gems/rspec-expectations-3.0.0.beta1/lib/rspec/expectations/handler.rb:34:in `handle_matcher'
+     C:/Ruby200/lib/ruby/gems/2.0.0/gems/rspec-expectations-3.0.0.beta1/lib/rspec/expectations/syntax.rb:70:in `should'
+     ./spec/navigation_spec.rb:68:in `block (3 levels) in &lt;top (required)&gt;'
+     C:/Ruby200/lib/ruby/gems/2.0.0/gems/rspec-core-3.0.0.beta1/lib/rspec/core/example.rb:114:in `instance_exec'
+     C:/Ruby200/lib/ruby/gems/2.0.0/gems/rspec-core-3.0.0.beta1/lib/rspec/core/example.rb:114:in `block in run'
+     C:/Ruby200/lib/ruby/gems/2.0.0/gems/rspec-core-3.0.0.beta1/lib/rspec/core/example.rb:241:in `with_around_each_hooks'
+     C:/Ruby200/lib/ruby/gems/2.0.0/gems/rspec-core-3.0.0.beta1/lib/rspec/core/example.rb:111:in `run'
+     C:/Ruby200/lib/ruby/gems/2.0.0/gems/rspec-core-3.0.0.beta1/lib/rspec/core/example_group.rb:416:in `block in run_examples'
+     C:/Ruby200/lib/ruby/gems/2.0.0/gems/rspec-core-3.0.0.beta1/lib/rspec/core/example_group.rb:412:in `map'
+     C:/Ruby200/lib/ruby/gems/2.0.0/gems/rspec-core-3.0.0.beta1/lib/rspec/core/example_group.rb:412:in `run_examples'
+     C:/Ruby200/lib/ruby/gems/2.0.0/gems/rspec-core-3.0.0.beta1/lib/rspec/core/example_group.rb:381:in `run'
+     C:/Ruby200/lib/ruby/gems/2.0.0/gems/rspec-core-3.0.0.beta1/lib/rspec/core/command_line.rb:28:in `block (2 levels) in run'
+     C:/Ruby200/lib/ruby/gems/2.0.0/gems/rspec-core-3.0.0.beta1/lib/rspec/core/command_line.rb:28:in `map'
+     C:/Ruby200/lib/ruby/gems/2.0.0/gems/rspec-core-3.0.0.beta1/lib/rspec/core/command_line.rb:28:in `block in run'
+     C:/Ruby200/lib/ruby/gems/2.0.0/gems/rspec-core-3.0.0.beta1/lib/rspec/core/reporter.rb:53:in `report'
+     C:/Ruby200/lib/ruby/gems/2.0.0/gems/rspec-core-3.0.0.beta1/lib/rspec/core/command_line.rb:25:in `run'
+     C:/Ruby200/lib/ruby/gems/2.0.0/gems/rspec-core-3.0.0.beta1/lib/rspec/core/runner.rb:90:in `run'
+     C:/Ruby200/lib/ruby/gems/2.0.0/gems/rspec-core-3.0.0.beta1/lib/rspec/core/runner.rb:17:in `block in autorun'    </failure>
+  </testcase>
+  <testcase name="Navigation - firefox Left Menu - Config Page - menu items" time="10.9035">
+    <failure type="Selenium::WebDriver::Error::StaleElementReferenceError" message="Element not found in the cache - perhaps the page has changed since it was looked up...">
+Element not found in the cache - perhaps the page has changed since it was looked up
+Command duration or timeout: 10.11 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '2.39.0', revision: 'ff23eac', time: '2013-12-16 16:11:15'
+System info: host: 'ROSELCXB0000TR0', ip: '192.168.56.1', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.7.0_45'
+Session ID: 1a66f18a-6229-4462-8dd2-9b7f0aa5b02e
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{platform=XP, acceptSslCerts=true, javascriptEnabled=true, cssSelectorsEnabled=true, databaseEnabled=true, browserName=firefox, handlesAlerts=true, browserConnectionEnabled=true, webStorageEnabled=true, nativeEvents=false, rotatable=false, locationContextEnabled=true, applicationCacheEnabled=true, takesScreenshot=true, version=26.0}] (org.openqa.selenium.StaleElementReferenceException) (Selenium::WebDriver::Error::StaleElementReferenceError)
+Selenium::WebDriver::Error::StaleElementReferenceError:
+Element not found in the cache - perhaps the page has changed since it was looked up
+Command duration or timeout: 10.11 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '2.39.0', revision: 'ff23eac', time: '2013-12-16 16:11:15'
+System info: host: 'ROSELCXB0000TR0', ip: '192.168.56.1', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.7.0_45'
+Session ID: 1a66f18a-6229-4462-8dd2-9b7f0aa5b02e
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{platform=XP, acceptSslCerts=true, javascriptEnabled=true, cssSelectorsEnabled=true, databaseEnabled=true, browserName=firefox, handlesAlerts=true, browserConnectionEnabled=true, webStorageEnabled=true, nativeEvents=false, rotatable=false, locationContextEnabled=true, applicationCacheEnabled=true, takesScreenshot=true, version=26.0}] (org.openqa.selenium.StaleElementReferenceException)
+     [remote server] sun.reflect.NativeConstructorAccessorImpl(NativeConstructorAccessorImpl.java):-2:in `newInstance0'
+     [remote server] sun.reflect.NativeConstructorAccessorImpl(NativeConstructorAccessorImpl.java):57:in `newInstance'
+     [remote server] sun.reflect.DelegatingConstructorAccessorImpl(DelegatingConstructorAccessorImpl.java):45:in `newInstance'
+     [remote server] java.lang.reflect.Constructor(Constructor.java):526:in `newInstance'
+     [remote server] org.openqa.selenium.remote.ErrorHandler(ErrorHandler.java):193:in `createThrowable'
+     [remote server] org.openqa.selenium.remote.ErrorHandler(ErrorHandler.java):145:in `throwIfResponseFailed'
+     [remote server] org.openqa.selenium.remote.RemoteWebDriver(RemoteWebDriver.java):554:in `execute'
+     [remote server] org.openqa.selenium.remote.RemoteWebElement(RemoteWebElement.java):268:in `execute'
+     [remote server] org.openqa.selenium.remote.RemoteWebElement(RemoteWebElement.java):89:in `sendKeys'
+     [remote server] sun.reflect.GeneratedMethodAccessor21():-1:in `invoke'
+     [remote server] sun.reflect.DelegatingMethodAccessorImpl(DelegatingMethodAccessorImpl.java):43:in `invoke'
+     [remote server] java.lang.reflect.Method(Method.java):606:in `invoke'
+     [remote server] org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement$1(EventFiringWebDriver.java):331:in `invoke'
+     [remote server] com.sun.proxy.$Proxy3():-1:in `sendKeys'
+     [remote server] org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement(EventFiringWebDriver.java):354:in `sendKeys'
+     [remote server] sun.reflect.GeneratedMethodAccessor21():-1:in `invoke'
+     [remote server] sun.reflect.DelegatingMethodAccessorImpl(DelegatingMethodAccessorImpl.java):43:in `invoke'
+     [remote server] java.lang.reflect.Method(Method.java):606:in `invoke'
+     [remote server] org.openqa.selenium.remote.server.KnownElements$1(KnownElements.java):63:in `invoke'
+     [remote server] com.sun.proxy.$Proxy4():-1:in `sendKeys'
+     [remote server] org.openqa.selenium.remote.server.handler.SendKeys(SendKeys.java):49:in `call'
+     [remote server] org.openqa.selenium.remote.server.handler.SendKeys(SendKeys.java):1:in `call'
+     [remote server] java.util.concurrent.FutureTask(FutureTask.java):262:in `run'
+     [remote server] org.openqa.selenium.remote.server.DefaultSession$1(DefaultSession.java):170:in `run'
+     [remote server] java.util.concurrent.ThreadPoolExecutor(ThreadPoolExecutor.java):1145:in `runWorker'
+     [remote server] java.util.concurrent.ThreadPoolExecutor$Worker(ThreadPoolExecutor.java):615:in `run'
+     [remote server] java.lang.Thread(Thread.java):744:in `run'
+     C:/Ruby200/lib/ruby/gems/2.0.0/gems/selenium-webdriver-2.39.0/lib/selenium/webdriver/remote/response.rb:51:in `assert_ok'
+     C:/Ruby200/lib/ruby/gems/2.0.0/gems/selenium-webdriver-2.39.0/lib/selenium/webdriver/remote/response.rb:15:in `initialize'
+     C:/Ruby200/lib/ruby/gems/2.0.0/gems/selenium-webdriver-2.39.0/lib/selenium/webdriver/remote/http/common.rb:59:in `new'
+     C:/Ruby200/lib/ruby/gems/2.0.0/gems/selenium-webdriver-2.39.0/lib/selenium/webdriver/remote/http/common.rb:59:in `create_response'
+     C:/Ruby200/lib/ruby/gems/2.0.0/gems/selenium-webdriver-2.39.0/lib/selenium/webdriver/remote/http/default.rb:66:in `request'
+     C:/Ruby200/lib/ruby/gems/2.0.0/gems/selenium-webdriver-2.39.0/lib/selenium/webdriver/remote/http/common.rb:40:in `call'
+     C:/Ruby200/lib/ruby/gems/2.0.0/gems/selenium-webdriver-2.39.0/lib/selenium/webdriver/remote/bridge.rb:634:in `raw_execute'
+     C:/Ruby200/lib/ruby/gems/2.0.0/gems/selenium-webdriver-2.39.0/lib/selenium/webdriver/remote/bridge.rb:612:in `execute'
+     C:/Ruby200/lib/ruby/gems/2.0.0/gems/selenium-webdriver-2.39.0/lib/selenium/webdriver/remote/bridge.rb:411:in `sendKeysToElement'
+     C:/Ruby200/lib/ruby/gems/2.0.0/gems/selenium-webdriver-2.39.0/lib/selenium/webdriver/common/element.rb:126:in `send_keys'
+     ./spec/navigation_spec.rb:33:in `login'
+     ./spec/navigation_spec.rb:80:in `block (3 levels) in &lt;top (required)&gt;'
+     C:/Ruby200/lib/ruby/gems/2.0.0/gems/rspec-core-3.0.0.beta1/lib/rspec/core/example.rb:114:in `instance_exec'
+     C:/Ruby200/lib/ruby/gems/2.0.0/gems/rspec-core-3.0.0.beta1/lib/rspec/core/example.rb:114:in `block in run'
+     C:/Ruby200/lib/ruby/gems/2.0.0/gems/rspec-core-3.0.0.beta1/lib/rspec/core/example.rb:241:in `with_around_each_hooks'
+     C:/Ruby200/lib/ruby/gems/2.0.0/gems/rspec-core-3.0.0.beta1/lib/rspec/core/example.rb:111:in `run'
+     C:/Ruby200/lib/ruby/gems/2.0.0/gems/rspec-core-3.0.0.beta1/lib/rspec/core/example_group.rb:416:in `block in run_examples'
+     C:/Ruby200/lib/ruby/gems/2.0.0/gems/rspec-core-3.0.0.beta1/lib/rspec/core/example_group.rb:412:in `map'
+     C:/Ruby200/lib/ruby/gems/2.0.0/gems/rspec-core-3.0.0.beta1/lib/rspec/core/example_group.rb:412:in `run_examples'
+     C:/Ruby200/lib/ruby/gems/2.0.0/gems/rspec-core-3.0.0.beta1/lib/rspec/core/example_group.rb:381:in `run'
+     C:/Ruby200/lib/ruby/gems/2.0.0/gems/rspec-core-3.0.0.beta1/lib/rspec/core/command_line.rb:28:in `block (2 levels) in run'
+     C:/Ruby200/lib/ruby/gems/2.0.0/gems/rspec-core-3.0.0.beta1/lib/rspec/core/command_line.rb:28:in `map'
+     C:/Ruby200/lib/ruby/gems/2.0.0/gems/rspec-core-3.0.0.beta1/lib/rspec/core/command_line.rb:28:in `block in run'
+     C:/Ruby200/lib/ruby/gems/2.0.0/gems/rspec-core-3.0.0.beta1/lib/rspec/core/reporter.rb:53:in `report'
+     C:/Ruby200/lib/ruby/gems/2.0.0/gems/rspec-core-3.0.0.beta1/lib/rspec/core/command_line.rb:25:in `run'
+     C:/Ruby200/lib/ruby/gems/2.0.0/gems/rspec-core-3.0.0.beta1/lib/rspec/core/runner.rb:90:in `run'
+     C:/Ruby200/lib/ruby/gems/2.0.0/gems/rspec-core-3.0.0.beta1/lib/rspec/core/runner.rb:17:in `block in autorun'    </failure>
+  </testcase>
+  <testcase name="Navigation - firefox Left Menu - Login / Logout page" time="10.578">
+    <failure type="Selenium::WebDriver::Error::NoSuchElementError" message="Unable to locate element: {&quot;method&quot;:&quot;id&quot;,&quot;selector&quot;:&quot;email&quot;}...">
+Unable to locate element: {"method":"id","selector":"email"}
+Command duration or timeout: 10.05 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.39.0', revision: 'ff23eac', time: '2013-12-16 16:11:15'
+System info: host: 'ROSELCXB0000TR0', ip: '192.168.56.1', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.7.0_45'
+Session ID: 1a66f18a-6229-4462-8dd2-9b7f0aa5b02e
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{platform=XP, acceptSslCerts=true, javascriptEnabled=true, cssSelectorsEnabled=true, databaseEnabled=true, browserName=firefox, handlesAlerts=true, browserConnectionEnabled=true, webStorageEnabled=true, nativeEvents=false, rotatable=false, locationContextEnabled=true, applicationCacheEnabled=true, takesScreenshot=true, version=26.0}] (org.openqa.selenium.NoSuchElementException) (Selenium::WebDriver::Error::NoSuchElementError)
+Selenium::WebDriver::Error::NoSuchElementError:
+Unable to locate element: {"method":"id","selector":"email"}
+Command duration or timeout: 10.05 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.39.0', revision: 'ff23eac', time: '2013-12-16 16:11:15'
+System info: host: 'ROSELCXB0000TR0', ip: '192.168.56.1', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.7.0_45'
+Session ID: 1a66f18a-6229-4462-8dd2-9b7f0aa5b02e
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{platform=XP, acceptSslCerts=true, javascriptEnabled=true, cssSelectorsEnabled=true, databaseEnabled=true, browserName=firefox, handlesAlerts=true, browserConnectionEnabled=true, webStorageEnabled=true, nativeEvents=false, rotatable=false, locationContextEnabled=true, applicationCacheEnabled=true, takesScreenshot=true, version=26.0}] (org.openqa.selenium.NoSuchElementException)
+     [remote server] sun.reflect.NativeConstructorAccessorImpl(NativeConstructorAccessorImpl.java):-2:in `newInstance0'
+     [remote server] sun.reflect.NativeConstructorAccessorImpl(NativeConstructorAccessorImpl.java):57:in `newInstance'
+     [remote server] sun.reflect.DelegatingConstructorAccessorImpl(DelegatingConstructorAccessorImpl.java):45:in `newInstance'
+     [remote server] java.lang.reflect.Constructor(Constructor.java):526:in `newInstance'
+     [remote server] org.openqa.selenium.remote.ErrorHandler(ErrorHandler.java):193:in `createThrowable'
+     [remote server] org.openqa.selenium.remote.ErrorHandler(ErrorHandler.java):145:in `throwIfResponseFailed'
+     [remote server] org.openqa.selenium.remote.RemoteWebDriver(RemoteWebDriver.java):554:in `execute'
+     [remote server] org.openqa.selenium.remote.RemoteWebDriver(RemoteWebDriver.java):307:in `findElement'
+     [remote server] org.openqa.selenium.remote.RemoteWebDriver(RemoteWebDriver.java):348:in `findElementById'
+     [remote server] org.openqa.selenium.By$ById(By.java):220:in `findElement'
+     [remote server] org.openqa.selenium.remote.RemoteWebDriver(RemoteWebDriver.java):299:in `findElement'
+     [remote server] sun.reflect.GeneratedMethodAccessor19():-1:in `invoke'
+     [remote server] sun.reflect.DelegatingMethodAccessorImpl(DelegatingMethodAccessorImpl.java):43:in `invoke'
+     [remote server] java.lang.reflect.Method(Method.java):606:in `invoke'
+     [remote server] org.openqa.selenium.support.events.EventFiringWebDriver$2(EventFiringWebDriver.java):101:in `invoke'
+     [remote server] com.sun.proxy.$Proxy5():-1:in `findElement'
+     [remote server] org.openqa.selenium.support.events.EventFiringWebDriver(EventFiringWebDriver.java):184:in `findElement'
+     [remote server] org.openqa.selenium.remote.server.handler.FindElement(FindElement.java):47:in `call'
+     [remote server] org.openqa.selenium.remote.server.handler.FindElement(FindElement.java):1:in `call'
+     [remote server] java.util.concurrent.FutureTask(FutureTask.java):262:in `run'
+     [remote server] org.openqa.selenium.remote.server.DefaultSession$1(DefaultSession.java):170:in `run'
+     [remote server] java.util.concurrent.ThreadPoolExecutor(ThreadPoolExecutor.java):1145:in `runWorker'
+     [remote server] java.util.concurrent.ThreadPoolExecutor$Worker(ThreadPoolExecutor.java):615:in `run'
+     [remote server] java.lang.Thread(Thread.java):744:in `run'
+     C:/Ruby200/lib/ruby/gems/2.0.0/gems/selenium-webdriver-2.39.0/lib/selenium/webdriver/remote/response.rb:51:in `assert_ok'
+     C:/Ruby200/lib/ruby/gems/2.0.0/gems/selenium-webdriver-2.39.0/lib/selenium/webdriver/remote/response.rb:15:in `initialize'
+     C:/Ruby200/lib/ruby/gems/2.0.0/gems/selenium-webdriver-2.39.0/lib/selenium/webdriver/remote/http/common.rb:59:in `new'
+     C:/Ruby200/lib/ruby/gems/2.0.0/gems/selenium-webdriver-2.39.0/lib/selenium/webdriver/remote/http/common.rb:59:in `create_response'
+     C:/Ruby200/lib/ruby/gems/2.0.0/gems/selenium-webdriver-2.39.0/lib/selenium/webdriver/remote/http/default.rb:66:in `request'
+     C:/Ruby200/lib/ruby/gems/2.0.0/gems/selenium-webdriver-2.39.0/lib/selenium/webdriver/remote/http/common.rb:40:in `call'
+     C:/Ruby200/lib/ruby/gems/2.0.0/gems/selenium-webdriver-2.39.0/lib/selenium/webdriver/remote/bridge.rb:634:in `raw_execute'
+     C:/Ruby200/lib/ruby/gems/2.0.0/gems/selenium-webdriver-2.39.0/lib/selenium/webdriver/remote/bridge.rb:612:in `execute'
+     C:/Ruby200/lib/ruby/gems/2.0.0/gems/selenium-webdriver-2.39.0/lib/selenium/webdriver/remote/bridge.rb:580:in `find_element_by'
+     C:/Ruby200/lib/ruby/gems/2.0.0/gems/selenium-webdriver-2.39.0/lib/selenium/webdriver/common/search_context.rb:42:in `find_element'
+     ./spec/navigation_spec.rb:33:in `login'
+     ./spec/navigation_spec.rb:94:in `block (3 levels) in &lt;top (required)&gt;'
+     C:/Ruby200/lib/ruby/gems/2.0.0/gems/rspec-core-3.0.0.beta1/lib/rspec/core/example.rb:114:in `instance_exec'
+     C:/Ruby200/lib/ruby/gems/2.0.0/gems/rspec-core-3.0.0.beta1/lib/rspec/core/example.rb:114:in `block in run'
+     C:/Ruby200/lib/ruby/gems/2.0.0/gems/rspec-core-3.0.0.beta1/lib/rspec/core/example.rb:241:in `with_around_each_hooks'
+     C:/Ruby200/lib/ruby/gems/2.0.0/gems/rspec-core-3.0.0.beta1/lib/rspec/core/example.rb:111:in `run'
+     C:/Ruby200/lib/ruby/gems/2.0.0/gems/rspec-core-3.0.0.beta1/lib/rspec/core/example_group.rb:416:in `block in run_examples'
+     C:/Ruby200/lib/ruby/gems/2.0.0/gems/rspec-core-3.0.0.beta1/lib/rspec/core/example_group.rb:412:in `map'
+     C:/Ruby200/lib/ruby/gems/2.0.0/gems/rspec-core-3.0.0.beta1/lib/rspec/core/example_group.rb:412:in `run_examples'
+     C:/Ruby200/lib/ruby/gems/2.0.0/gems/rspec-core-3.0.0.beta1/lib/rspec/core/example_group.rb:381:in `run'
+     C:/Ruby200/lib/ruby/gems/2.0.0/gems/rspec-core-3.0.0.beta1/lib/rspec/core/command_line.rb:28:in `block (2 levels) in run'
+     C:/Ruby200/lib/ruby/gems/2.0.0/gems/rspec-core-3.0.0.beta1/lib/rspec/core/command_line.rb:28:in `map'
+     C:/Ruby200/lib/ruby/gems/2.0.0/gems/rspec-core-3.0.0.beta1/lib/rspec/core/command_line.rb:28:in `block in run'
+     C:/Ruby200/lib/ruby/gems/2.0.0/gems/rspec-core-3.0.0.beta1/lib/rspec/core/reporter.rb:53:in `report'
+     C:/Ruby200/lib/ruby/gems/2.0.0/gems/rspec-core-3.0.0.beta1/lib/rspec/core/command_line.rb:25:in `run'
+     C:/Ruby200/lib/ruby/gems/2.0.0/gems/rspec-core-3.0.0.beta1/lib/rspec/core/runner.rb:90:in `run'
+     C:/Ruby200/lib/ruby/gems/2.0.0/gems/rspec-core-3.0.0.beta1/lib/rspec/core/runner.rb:17:in `block in autorun'    </failure>
+  </testcase>
+  <system-out>
+713134
+  </system-out>
+  <system-err>
+  </system-err>
+</testsuite>
