@@ -36,29 +36,29 @@ require_relative 'spec_helper'
     end
 
     it "Left Menu - Home Page - menu items" do
-
       login("anwar", "@", "#{@url1}", ".com", "passwordx")
 
       @browser.page_source.should include("/api/image/#{@url1}")
-      home.should be_true
-      demo1.should be_true
-      demo2.should be_true
-      config.should be_true
-      logout.should be_true
+
+      @browser.find_element(:xpath, "#{@home}").should be_true
+      @browser.find_element(:xpath, "#{@demo1}").should be_true
+      @browser.find_element(:xpath, "#{@demo2}").should be_true
+      @browser.find_element(:xpath, "#{@config}").should be_true
+      @browser.find_element(:xpath, "#{@logout}").should be_true
     end
 
     it "Left Menu - Demo1 Page - menu items" do
 
       login("anwar", "@", "#{@url1}", ".com", "passwordx")
 
-      page_source.should include("/api/image/#{@url1}")
+      @browser.page_source.should include("/api/image/#{@url1}")
+      @browser.find_element(:xpath, "#{@demo1}").click
+      @browser.find_element(:xpath, "#{@home}").should be_true
+      @browser.find_element(:xpath, "#{@demo1}").should be_true
+      @browser.find_element(:xpath, "#{@demo2}").should be_true
+      @browser.find_element(:xpath, "#{@config}").should be_true
+      @browser.find_element(:xpath, "#{@logout}").should be_true
 
-      demo1_click
-      home.should be_true
-      demo1.should be_true
-      demo2.should be_true
-      config.should be_true
-      logout.should be_true
     end
 
     it "Left Menu - Demo2 Page - menu items" do
@@ -66,12 +66,12 @@ require_relative 'spec_helper'
       login("anwar", "@", "#{@url1}", ".com", "passwordx")
 
       @browser.page_source.should include("/api/image/#{@url1}")
-      demo2_click
-      home.should be_true
-      demo1.should be_true
-      demo2.should be_true
-      config.should be_true
-      logout.should be_true
+      @browser.find_element(:xpath, "#{@demo2}").click
+      @browser.find_element(:xpath, "#{@home}").should be_true
+      @browser.find_element(:xpath, "#{@demo1}").should be_true
+      @browser.find_element(:xpath, "#{@demo2}").should be_true
+      @browser.find_element(:xpath, "#{@config}").should be_true
+      @browser.find_element(:xpath, "#{@logout}").should be_true
 
     end
 
@@ -80,12 +80,12 @@ require_relative 'spec_helper'
       login("anwar", "@", "#{@url1}", ".com", "passwordx")
 
       @browser.page_source.should include("/api/image/#{@url1}")
-      config_click
-      home.should be_true
-      demo1.should be_true
-      demo2.should be_true
-      config.should be_true
-      logout.should be_true
+      @browser.find_element(:xpath, "#{@config}").click
+      @browser.find_element(:xpath, "#{@home}").should be_true
+      @browser.find_element(:xpath, "#{@demo1}").should be_true
+      @browser.find_element(:xpath, "#{@demo2}").should be_true
+      @browser.find_element(:xpath, "#{@config}").should be_true
+      @browser.find_element(:xpath, "#{@logout}").should be_true
 
     end
 

@@ -15,6 +15,7 @@ GEM
     parallel (0.8.2)
     parallel_tests (0.16.6)
       parallel
+    rake (10.1.1)
     rspec (2.14.1)
       rspec-core (~> 2.14.0)
       rspec-expectations (~> 2.14.0)
@@ -44,6 +45,7 @@ DEPENDENCIES
   mongo (= 1.9.2)
   parallel (= 0.8.2)
   parallel_tests
+  rake
   rspec (= 2.14.1)
   selenium-webdriver (= 2.39.0)
   syntax (= 1.0.0)

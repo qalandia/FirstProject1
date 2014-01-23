@@ -31,7 +31,7 @@ describe "User Authentication - #{bro}" do
 
   def login(user1, user2, user3, user4, password)
     @browser.find_element(:id, 'email').send_keys (user1 + user2 + user3 + user4)
-    @browser.find_element(:xpath, '/html/body/div/form/input[2]').send_keys password
+    @browser.find_element(:xpath, '/html/body/div/form/input[2]x').send_keys password
     @browser.find_element(:id, 'loginButton').click
   end
 

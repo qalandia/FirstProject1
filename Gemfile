@@ -9,4 +9,5 @@ gem 'syntax', '1.0.0'
 gem "parallel_tests", :group => :development
 gem 'mongo',  '1.9.2'
 gem 'ci_reporter'
+gem 'rake'
 
