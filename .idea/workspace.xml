@@ -1,17 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="32b850fe-f65e-434b-872b-5de653795877" name="Default" comment="test&#10;">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pages/login_page.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/old-scripts/navigation_spec_old.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/FirstProject1.iml" afterPath="$PROJECT_DIR$/.idea/FirstProject1.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile.lock" afterPath="$PROJECT_DIR$/Gemfile.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile" afterPath="$PROJECT_DIR$/Gemfile" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Test Results - All_specs_in_spec__FirstProject1.html" afterPath="$PROJECT_DIR$/Test Results - All_specs_in_spec__FirstProject1.html" />
+    <list default="true" id="32b850fe-f65e-434b-872b-5de653795877" name="Default" comment="">
+      <change type="MOVED" beforePath="C:\Users\salema\Documents\GitHub\FirstProject1\spec\login_grid__firefox_spec.rb" afterPath="$PROJECT_DIR$/old-scripts/login_grid__firefox_spec.rb" />
+      <change type="MOVED" beforePath="C:\Users\salema\Documents\GitHub\FirstProject1\spec\login_grid__ie_specx.rb" afterPath="$PROJECT_DIR$/old-scripts/login_grid__ie_specx.rb" />
+      <change type="MOVED" beforePath="C:\Users\salema\Documents\GitHub\FirstProject1\spec\login_grid__safari_specx.rb" afterPath="$PROJECT_DIR$/old-scripts/login_grid__safari_specx.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/config_spec.rb" afterPath="$PROJECT_DIR$/spec/config_spec.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/image_upload_spec.rb" afterPath="$PROJECT_DIR$/spec/image_upload_spec.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/login_autotheme_grid_spec.rb" afterPath="$PROJECT_DIR$/spec/login_autotheme_grid_spec.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/login_page.rb" afterPath="$PROJECT_DIR$/pages/login_page.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/menu_page.rb" afterPath="$PROJECT_DIR$/pages/menu_page.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/navigation_spec.rb" afterPath="$PROJECT_DIR$/spec/navigation_spec.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/selenium-grid.json" afterPath="$PROJECT_DIR$/selenium-grid.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/spec_helper.rb" afterPath="$PROJECT_DIR$/spec/spec_helper.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/test_spec.rb" afterPath="$PROJECT_DIR$/spec/test_spec.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="FirstProject1.iws" />
@@ -26,10 +27,10 @@
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/FirstProject1@_Navigation_____bro___Left_Menu___Login___Logout_page__FirstProject1.coverage" NAME="&quot;Navigation - #{bro}&quot; Left Menu - Login / Logout page: FirstProject1 Coverage Results" MODIFIED="1389493650542" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="FirstProject1" />
     <SUITE FILE_PATH="coverage/FirstProject1@login_xspec.coverage" NAME="login_xspec Coverage Results" MODIFIED="1389206846841" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/spec" MODULE_NAME="FirstProject1" />
-    <SUITE FILE_PATH="coverage/FirstProject1@Run_spec__navigation_spec___FirstProject1.coverage" NAME="Run spec 'navigation_spec': FirstProject1 Coverage Results" MODIFIED="1390514618236" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="FirstProject1" />
+    <SUITE FILE_PATH="coverage/FirstProject1@Run_spec__navigation_spec___FirstProject1.coverage" NAME="Run spec 'navigation_spec': FirstProject1 Coverage Results" MODIFIED="1390515767510" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="FirstProject1" />
     <SUITE FILE_PATH="coverage/FirstProject1@Run_spec__config_spec___FirstProject1.coverage" NAME="Run spec 'config_spec': FirstProject1 Coverage Results" MODIFIED="1390247946576" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="FirstProject1" />
     <SUITE FILE_PATH="coverage/FirstProject1@Run_spec__login_spec___FirstProject1.coverage" NAME="Run spec 'login_spec': FirstProject1 Coverage Results" MODIFIED="1388959545942" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="FirstProject1" />
-    <SUITE FILE_PATH="coverage/FirstProject1@Run_spec__login_autotheme_grid_spec___FirstProject1.coverage" NAME="Run spec 'login_autotheme_grid_spec': FirstProject1 Coverage Results" MODIFIED="1390497554140" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="FirstProject1" />
+    <SUITE FILE_PATH="coverage/FirstProject1@Run_spec__login_autotheme_grid_spec___FirstProject1.coverage" NAME="Run spec 'login_autotheme_grid_spec': FirstProject1 Coverage Results" MODIFIED="1390517630879" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="FirstProject1" />
     <SUITE FILE_PATH="coverage/FirstProject1@Run_spec__test_spec___FirstProject1.coverage" NAME="Run spec 'test_spec': FirstProject1 Coverage Results" MODIFIED="1389723197499" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="FirstProject1" />
     <SUITE FILE_PATH="coverage/FirstProject1@Run_spec__login_grid__firefox_spec___FirstProject1.coverage" NAME="Run spec 'login_grid__firefox_spec': FirstProject1 Coverage Results" MODIFIED="1389386474211" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="FirstProject1" />
     <SUITE FILE_PATH="coverage/FirstProject1@Run_test__test_spec___FirstProject1.coverage" NAME="Run test 'test_spec': FirstProject1 Coverage Results" MODIFIED="1389213849136" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/spec" MODULE_NAME="FirstProject1" />
@@ -58,7 +59,7 @@
       <file leaf-file-name="spec_helper.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/spec/spec_helper.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="27" column="12" selection-start="614" selection-end="614" vertical-scroll-proportion="0.0" vertical-offset="153" max-vertical-offset="935">
+            <state line="7" column="37" selection-start="225" selection-end="225" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="952">
               <folding />
             </state>
           </provider>
@@ -67,7 +68,25 @@
       <file leaf-file-name="login_page.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pages/login_page.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="0" selection-start="85" selection-end="85" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="408">
+            <state line="7" column="75" selection-start="176" selection-end="176" vertical-scroll-proportion="0.0" vertical-offset="4" max-vertical-offset="408">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="test_spec.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spec/test_spec.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="40" column="0" selection-start="1206" selection-end="1206" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="833">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="login_grid__firefox_spec.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/old-scripts/login_grid__firefox_spec.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="29" column="63" selection-start="927" selection-end="955" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1071">
               <folding />
             </state>
           </provider>
@@ -76,16 +95,16 @@
       <file leaf-file-name="menu_page.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pages/menu_page.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="48" column="85" selection-start="1440" selection-end="1440" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="969">
+            <state line="7" column="32" selection-start="177" selection-end="186" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="816">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="navigation_spec.rb" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="navigation_spec.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/spec/navigation_spec.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="42" column="25" selection-start="1389" selection-end="1389" vertical-scroll-proportion="0.0" vertical-offset="561" max-vertical-offset="1955">
+            <state line="106" column="0" selection-start="3156" selection-end="3156" vertical-scroll-proportion="5.613707" vertical-offset="0" max-vertical-offset="1972">
               <folding />
             </state>
           </provider>
@@ -103,16 +122,25 @@
       <file leaf-file-name="abstract_page.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pages/abstract_page.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="4" selection-start="201" selection-end="201" vertical-scroll-proportion="0.0" vertical-offset="12" max-vertical-offset="391">
+            <state line="4" column="4" selection-start="201" selection-end="201" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="391">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="config_spec.rb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="config_spec.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/spec/config_spec.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="61" column="5" selection-start="2168" selection-end="2181" vertical-scroll-proportion="2.9293785" vertical-offset="0" max-vertical-offset="1309">
+            <state line="38" column="20" selection-start="1123" selection-end="1123" vertical-scroll-proportion="0.0" vertical-offset="929" max-vertical-offset="1326">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="image_upload_spec.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spec/image_upload_spec.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="35" column="7" selection-start="1101" selection-end="1101" vertical-scroll-proportion="0.0" vertical-offset="714" max-vertical-offset="1088">
               <folding />
             </state>
           </provider>
@@ -145,27 +173,27 @@
         <option value="$PROJECT_DIR$/spec/login_grid__chrome_spec.rb" />
         <option value="$PROJECT_DIR$/pages/multy_browsers.rb" />
         <option value="$PROJECT_DIR$/pages/multi_browsers.rb" />
-        <option value="$PROJECT_DIR$/spec/spec_helper.rb" />
-        <option value="$PROJECT_DIR$/spec/test_spec.rb" />
         <option value="C:/Ruby200/lib/ruby/gems/2.0.0/gems/selenium-webdriver-2.39.0/lib/selenium/webdriver/remote/response.rb" />
-        <option value="$PROJECT_DIR$/spec/config_spec.rb" />
-        <option value="$PROJECT_DIR$/spec/image_upload_spec.rb" />
         <option value="$PROJECT_DIR$/rakefile.rake" />
         <option value="$PROJECT_DIR$/.rspec" />
         <option value="$PROJECT_DIR$/rakefile.rb" />
         <option value="$PROJECT_DIR$/Gemfile" />
         <option value="$PROJECT_DIR$/selenium-grid.json" />
+        <option value="$PROJECT_DIR$/pages/menu_page.rb" />
+        <option value="$PROJECT_DIR$/spec/spec_helper.rb" />
         <option value="$PROJECT_DIR$/spec/login_autotheme_grid_spec.rb" />
         <option value="$PROJECT_DIR$/pages/login_page.rb" />
-        <option value="$PROJECT_DIR$/pages/menu_page.rb" />
+        <option value="$PROJECT_DIR$/spec/config_spec.rb" />
+        <option value="$PROJECT_DIR$/spec/image_upload_spec.rb" />
+        <option value="$PROJECT_DIR$/spec/test_spec.rb" />
         <option value="$PROJECT_DIR$/spec/navigation_spec.rb" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="111" />
-    <option name="y" value="8" />
-    <option name="width" value="1397" />
+    <option name="x" value="90" />
+    <option name="y" value="15" />
+    <option name="width" value="1441" />
     <option name="height" value="843" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -241,6 +269,20 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="FirstProject1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="FirstProject1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="old-scripts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
     </panes>
@@ -271,7 +313,7 @@
       <recent name="C:\Users\salema\RubymineProjects\FirstProject1\pages" />
     </key>
   </component>
-  <component name="RunManager" selected="RSpec.Run spec 'navigation_spec': FirstProject1">
+  <component name="RunManager" selected="RSpec.Run spec 'login_autotheme_grid_spec': FirstProject1">
     <configuration default="false" name="rakefile" type="RubyRunConfigurationType" factoryName="Ruby" temporary="true">
       <module name="FirstProject1" />
       <RUBY_RUN_CONFIG NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
@@ -492,9 +534,9 @@
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="RSpec.Run spec 'navigation_spec': FirstProject1" />
-        <item index="1" class="java.lang.String" itemvalue="Ruby.rakefile" />
-        <item index="2" class="java.lang.String" itemvalue="RSpec.Run spec 'login_autotheme_grid_spec': FirstProject1" />
+        <item index="0" class="java.lang.String" itemvalue="RSpec.Run spec 'login_autotheme_grid_spec': FirstProject1" />
+        <item index="1" class="java.lang.String" itemvalue="RSpec.Run spec 'navigation_spec': FirstProject1" />
+        <item index="2" class="java.lang.String" itemvalue="Ruby.rakefile" />
         <item index="3" class="java.lang.String" itemvalue="RSpec.Run spec 'config_spec': FirstProject1" />
         <item index="4" class="java.lang.String" itemvalue="RSpec.Run spec 'test_spec': FirstProject1" />
       </list>
@@ -540,7 +582,11 @@
       <created>1389654459642</created>
       <updated>1389654459642</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="test&#10;">
+      <created>1390514975335</created>
+      <updated>1390514975335</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <option name="createChangelist" value="false" />
     <option name="createBranch" value="false" />
     <servers />
@@ -566,25 +612,25 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="111" y="8" width="1397" height="843" extended-state="0" />
-    <editor active="false" />
+    <frame x="90" y="15" width="1441" height="843" extended-state="0" />
+    <editor active="true" />
     <layout>
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32962447" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32917705" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.23441397" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" x="796" y="0" width="806" height="231" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32917705" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.40328604" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24295011" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.39650145" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.4271137" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32917705" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32169577" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32962447" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -670,7 +716,7 @@
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1836" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spec/login_grid__firefox_spec.rb">
+    <entry file="file://$PROJECT_DIR$/old-scripts/login_grid__firefox_spec.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="27" column="11" selection-start="911" selection-end="911" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="765" />
       </provider>
@@ -745,7 +791,7 @@
         <state line="11" column="3" selection-start="362" selection-end="362" vertical-scroll-proportion="0.0" vertical-offset="306" max-vertical-offset="1037" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spec/login_grid__ie_specx.rb">
+    <entry file="file://$PROJECT_DIR$/old-scripts/login_grid__ie_specx.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="2" column="34" selection-start="66" selection-end="66" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1071" />
       </provider>
@@ -775,22 +821,12 @@
         <state line="31" column="0" selection-start="1118" selection-end="1118" vertical-scroll-proportion="0.0" vertical-offset="323" max-vertical-offset="1445" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spec/image_upload_spec.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="17" selection-start="49" selection-end="49" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1071" />
-      </provider>
-    </entry>
     <entry file="file://C:/Ruby200/lib/ruby/gems/2.0.0/gems/selenium-webdriver-2.39.0/lib/selenium/webdriver/remote/response.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="50" column="0" selection-start="971" selection-end="971" vertical-scroll-proportion="0.0" vertical-offset="865" max-vertical-offset="1751" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spec/login_grid__firefox_spec.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="0" selection-start="32" selection-end="32" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1071" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spec/login_grid__safari_specx.rb">
+    <entry file="file://$PROJECT_DIR$/old-scripts/login_grid__safari_specx.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="2" column="0" selection-start="32" selection-end="32" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1071" />
       </provider>
@@ -817,23 +853,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spec/login_autotheme_grid_spec.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="39" column="56" selection-start="1198" selection-end="1251" vertical-scroll-proportion="0.0" vertical-offset="614" max-vertical-offset="1156">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/selenium-grid.json">
       <provider selected="true" editor-type-id="text-editor">
         <state line="11" column="25" selection-start="277" selection-end="277" vertical-scroll-proportion="-7.1923075" vertical-offset="0" max-vertical-offset="663">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spec/test_spec.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="38" column="7" selection-start="1255" selection-end="1255" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1275">
           <folding />
         </state>
       </provider>
@@ -873,34 +895,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spec/spec_helper.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="12" selection-start="614" selection-end="614" vertical-scroll-proportion="0.0" vertical-offset="153" max-vertical-offset="935">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spec/navigation_spec.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="42" column="25" selection-start="1389" selection-end="1389" vertical-scroll-proportion="0.0" vertical-offset="561" max-vertical-offset="1955">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/menu_page.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="48" column="85" selection-start="1440" selection-end="1440" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="969">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/login_page.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="0" selection-start="85" selection-end="85" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="408">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pages/abstract_page.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="4" column="4" selection-start="201" selection-end="201" vertical-scroll-proportion="0.0" vertical-offset="12" max-vertical-offset="391">
@@ -908,9 +902,65 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/pages/menu_page.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="32" selection-start="177" selection-end="186" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="816">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/login_page.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="75" selection-start="176" selection-end="176" vertical-scroll-proportion="0.0" vertical-offset="4" max-vertical-offset="408">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/spec/config_spec.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="61" column="5" selection-start="2168" selection-end="2181" vertical-scroll-proportion="2.9293785" vertical-offset="0" max-vertical-offset="1309">
+        <state line="38" column="20" selection-start="1123" selection-end="1123" vertical-scroll-proportion="0.0" vertical-offset="929" max-vertical-offset="1326">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spec/image_upload_spec.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="35" column="7" selection-start="1101" selection-end="1101" vertical-scroll-proportion="0.0" vertical-offset="714" max-vertical-offset="1088">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spec/login_autotheme_grid_spec.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="34" column="24" selection-start="1023" selection-end="1036" vertical-scroll-proportion="0.0" vertical-offset="357" max-vertical-offset="1173">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/old-scripts/login_grid__firefox_spec.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="29" column="63" selection-start="927" selection-end="955" vertical-scroll-proportion="0.0" vertical-offset="323" max-vertical-offset="1071">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spec/test_spec.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="40" column="0" selection-start="1206" selection-end="1206" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="833">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spec/spec_helper.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="37" selection-start="225" selection-end="225" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="952">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spec/navigation_spec.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="106" column="0" selection-start="3156" selection-end="3156" vertical-scroll-proportion="5.613707" vertical-offset="0" max-vertical-offset="1972">
           <folding />
         </state>
       </provider>

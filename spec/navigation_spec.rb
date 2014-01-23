@@ -7,6 +7,7 @@ require_relative 'spec_helper'
   describe "Navigation - #{bro}" do
     include TestHelper # module in test_helper.rb file
     include MenuPage # module in menu_page.rb file
+    include LoginPage # module in login_page.rb file
 
     before(:all) do
       #@browser = Selenium::WebDriver.for(browser_type)
@@ -18,7 +19,7 @@ require_relative 'spec_helper'
       @browser.manage.timeouts.implicit_wait = 10
       @verification_errors = []
       @accept_next_alert = true
-      menu_items #method in menu_page.rb file
+      #menu_items #method in menu_page.rb file
     end
 
     before(:each) do
@@ -29,10 +30,10 @@ require_relative 'spec_helper'
       @browser.quit
     end
 
-    def login(user1, user2, user3, user4, password)
-      @browser.find_element(:id, 'email').send_keys (user1 + user2 + user3 + user4)
-      @browser.find_element(:xpath, '/html/body/div/form/input[2]').send_keys password
-      @browser.find_element(:id, 'loginButton').click
+    def login(user1, user2, user3, user4, password_text)
+      email.send_keys (user1 + user2 + user3 + user4)
+      password.send_keys password_text
+      login_button_click
     end
 
     it "Left Menu - Home Page - menu items" do
@@ -51,7 +52,7 @@ require_relative 'spec_helper'
 
       login("anwar", "@", "#{@url1}", ".com", "passwordx")
 
-      page_source.should include("/api/image/#{@url1}")
+      @browser.page_source.should include("/api/image/#{@url1}")
 
       demo1_click
       home.should be_true
@@ -94,15 +95,15 @@ require_relative 'spec_helper'
       login("anwar", "@", "#{@url1}", ".com", "passwordx")
 
       @browser.page_source.should include("/api/image/#{@url1}")
-      @browser.find_element(:xpath, "#{@logout}").click
+      logout_click
       @browser.find_element(:css, "img.header-image").should be_true
       #page_text is defined in spec_helper(TestHelper) module
       @browser.find_element(:css, "h2.form-signin-heading").text.should == "Please sign in"
       page_text.should include("Please sign in")
-      @browser.find_element(:id, "email").should be_true
+      email.should be_true
       @browser.find_element(:xpath, "//input[@type='password']").should be_true
       @browser.find_element(:css, "input[type=\"checkbox\"]").should be_true
-      @browser.find_element(:id, "loginButton").should be_true
+      login_button.should be_true
 
     end
 

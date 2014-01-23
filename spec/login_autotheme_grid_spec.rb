@@ -7,6 +7,7 @@ require_relative 'spec_helper'
 describe "User Authentication - #{bro}" do
   include TestHelper # module in test_helper.rb file
   include MenuPage # module in menu_page.rb file
+  include LoginPage
 
   before(:all) do
     #@browser = Selenium::WebDriver.for(browser_type)
@@ -18,7 +19,7 @@ describe "User Authentication - #{bro}" do
     @browser.manage.timeouts.implicit_wait = 10
     @verification_errors = []
     @accept_next_alert = true
-    menu_items #method in menu_page.rb file
+    #menu_items #method in menu_page.rb file
   end
 
   before(:each) do
@@ -29,10 +30,10 @@ describe "User Authentication - #{bro}" do
     @browser.quit
   end
 
-  def login(user1, user2, user3, user4, password)
-    @browser.find_element(:id, 'email').send_keys (user1 + user2 + user3 + user4)
-    @browser.find_element(:xpath, '/html/body/div/form/input[2]x').send_keys password
-    @browser.find_element(:id, 'loginButton').click
+  def login(user1, user2, user3, user4, password_text)
+    email.send_keys (user1 + user2 + user3 + user4)
+    password.send_keys password_text
+    login_button_click
   end
 
   it 'Login with valid user and password' do

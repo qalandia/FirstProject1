@@ -5,6 +5,7 @@ require 'rspec'
 require 'rspec-expectations'
 require_relative '../pages/abstract_page'
 require_relative '../pages/menu_page'
+require_relative '../pages/login_page'
 
 #Explicitly enable both syntaxes
 RSpec.configure do |config|

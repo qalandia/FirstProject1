@@ -7,6 +7,7 @@ require_relative 'spec_helper'
   describe "Test Script - #{bro}" do
     include TestHelper # module in test_helper.rb file
     include MenuPage # module in menu_page.rb file
+    include LoginPage # module in menu_page.rb file
 
     before(:all) do
       #@browser = Selenium::WebDriver.for(browser_type)
@@ -28,43 +29,16 @@ require_relative 'spec_helper'
       @browser.quit
     end
 
-    def login(user1, user2, user3, user4, password)
-      @browser.find_element(:id, 'email').send_keys (user1 + user2 + user3 + user4)
-      @browser.find_element(:xpath, '/html/body/div/form/input[2]').send_keys password
-      @browser.find_element(:id, 'loginButton').click
+    def login(user1, user2, user3, user4, password_text)
+      email.send_keys (user1 + user2 + user3 + user4)
+      password.send_keys password_text
+      login_button_click
     end
 
     it "execute shell script" do
       system("dir")
     end
 
-=begin
-  it "Left Menu - Home Page menu items" do
-    login("anwar", "@", "#{@url1}",".com", "passwordx")
-
-    @browser.page_source.should include("/api/image/#{@url1}")
-
-    @browser.find_element(:xpath, "#{@home}").should be_true
-    @browser.find_element(:xpath, "#{@demo1}").should be_true
-    @browser.find_element(:xpath, "#{@demo2}").should be_true
-    @browser.find_element(:xpath, "#{@config}").should be_true
-    @browser.find_element(:xpath, "#{@logout}").should be_true
-  end
-
-  it "Left Menu - Home Page menu items" do
-
-    login("anwar", "@", "#{@url1}",".com", "passwordx")
-
-    @browser.page_source.should include("/api/image/#{@url1}")
-
-    @browser.find_element(:xpath, "#{@home}").should be_true
-    @browser.find_element(:xpath, "#{@demo1}").should be_true
-    @browser.find_element(:xpath, "#{@demo2}").should be_true
-    @browser.find_element(:xpath, "#{@config}").should be_true
-    @browser.find_element(:xpath, "#{@logout}").should be_true
-
-  end
-=end
   end
 
 end
